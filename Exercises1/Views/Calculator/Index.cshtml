@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Máy tính";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-lg p-4" style="width: 400px;">
+        <h3 class="text-center text-primary mb-4">Máy tính đơn giản</h3>
+
+        <form method="post" asp-controller="Calculator" asp-action="Index">
+			@* @Html.AntiForgeryToken() *@
+            <div class="form-group mb-3">
+                <label for="number1" class="fw-bold">Số thứ nhất</label>
+                <input type="number" class="form-control" id="number1" name="number1" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="number2" class="fw-bold">Số thứ hai</label>
+                <input type="number" class="form-control" id="number2" name="number2" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="operation" class="fw-bold">Phép toán</label>
+                <select class="form-select" id="operation" name="operation">
+                    <option value="+">Cộng (+)</option>
+                    <option value="-">Trừ (-)</option>
+                    <option value="*">Nhân (*)</option>
+                    <option value="/">Chia (/)</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">Tính toán</button>
+        </form>
+
+        @if (ViewBag.Result != null)
+        {
+            <div class="alert alert-info text-center mt-3">
+                <strong>Kết quả:</strong> @ViewBag.Result
+            </div>
+        }
+    </div>
+</div>

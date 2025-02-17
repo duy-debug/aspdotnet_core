@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\aspdotnet_core\\Exercises1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\views\\calculator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:views\\calculator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\models\\calculatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:models\\calculatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\views\\calculator\\usemodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:views\\calculator\\usemodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\views\\calculator\\useiformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:views\\calculator\\useiformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\views\\calculator\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:views\\calculator\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|d:\\programming\\aspdotnet_core\\exercises1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676FC7C0-B246-44A5-8661-4D9DE6C28992}|BAITAP1.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculatorController.cs",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Controllers\\CalculatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CalculatorController.cs",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Controllers\\CalculatorController.cs",
+              "RelativeToolTip": "Controllers\\CalculatorController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:49:20.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Calculator\\Index.cshtml",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\Index.cshtml",
+              "RelativeToolTip": "Views\\Calculator\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T04:26:54.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculateModel.cs",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Models\\CalculateModel.cs",
+              "RelativeDocumentMoniker": "Models\\CalculateModel.cs",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Models\\CalculateModel.cs",
+              "RelativeToolTip": "Models\\CalculateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:34:10.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:53:37.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UseModel.cshtml",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\UseModel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Calculator\\UseModel.cshtml",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\UseModel.cshtml",
+              "RelativeToolTip": "Views\\Calculator\\UseModel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T05:36:51.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UseIFormCollection.cshtml",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\UseIFormCollection.cshtml",
+              "RelativeDocumentMoniker": "Views\\Calculator\\UseIFormCollection.cshtml",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\UseIFormCollection.cshtml",
+              "RelativeToolTip": "Views\\Calculator\\UseIFormCollection.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T05:32:57.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UseRequest.cshtml",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\UseRequest.cshtml",
+              "RelativeDocumentMoniker": "Views\\Calculator\\UseRequest.cshtml",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\Calculator\\UseRequest.cshtml",
+              "RelativeToolTip": "Views\\Calculator\\UseRequest.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T05:28:25.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T04:22:21.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T04:22:22.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Programming\\aspdotnet_core\\Exercises1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Programming\\aspdotnet_core\\Exercises1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T04:21:14.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
