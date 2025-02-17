@@ -35,14 +35,14 @@ Thông tin gửi mail bao gồm:
 1. **Thiết kế cơ sở dữ liệu (CSDL): Tạo CSDL có tên QLNV_MãSV gồm 2 bảng:** <br>
 • **Phòng ban**: (Mã phòng ban, Tên phòng ban) <br>
 • **Nhân viên**: (Mã nhân viên, Họ nhân viên, Tên nhân viên, Giới tính, Ngày sinh, Lương, Ảnh nhân viên, Địa chỉ, Mã phòng ban) <br>
-2.  **Tạo DbContext dựa trên CSDL** <br>
-3.  **Xây dựng các chức năng quản lý:** <br>
+2. **Tạo DbContext dựa trên CSDL** <br>
+3. **Xây dựng các chức năng quản lý:** <br>
 • Quản lý **phòng ban** và **nhân viên** với các chức năng: <br>
 • **Thêm mới** <br>
 • **Chỉnh sửa** <br>
 • **Xóa** <br>
 • **Hiển thị danh sách** <br>
-5. **Chức năng tìm kiếm cơ bản**: <br>
+4. **Chức năng tìm kiếm cơ bản**: <br>
 • Cho phép tìm kiếm nhân viên theo các tiêu chí: <br>
 • Mã nhân viên <br>
 • Họ tên <br>
@@ -51,7 +51,6 @@ Thông tin gửi mail bao gồm:
 • Phòng ban <br>
 # Bài tập 6
 **Xây dựng web quản lý sinh viên** <br>
-
 1. **Thiết kế cơ sở dữ liệu (CSDL)** <br>
 Tạo CSDL có tên **QLSV_MãSV** gồm 3 bảng: <br>
 
@@ -75,17 +74,17 @@ Tạo CSDL có tên **QLSV_MãSV** gồm 3 bảng: <br>
 • Tên đăng nhập (Username - Duy nhất) <br>
 • Mật khẩu (PasswordHash - Được băm bằng BCrypt) <br>
 • Vai trò (Role: Admin, User) <br>
-**2. Tạo DbContext dựa trên CSDL** <br>
+2. **Tạo DbContext dựa trên CSDL** <br>
 
 • Sử dụng Entity Framework Core để quản lý kết nối và truy vấn CSDL. <br>
 • DbContext chứa các DbSet cho các bảng trong CSDL. <br>
-**3. Xây dựng các chức năng quản lý phòng ban và sinh viên** <br>
+3. **Xây dựng các chức năng quản lý phòng ban và sinh viên** <br>
 
 **Thêm mới** <br>
 **Chỉnh sửa** <br>
 **Xóa** <br>
 **Hiển thị danh sách** <br>
-**4. Chức năng tìm kiếm sinh viên** <br>
+4. **Chức năng tìm kiếm sinh viên** <br>
 
 • Cho phép tìm kiếm sinh viên theo các tiêu chí: <br>
 • Mã sinh viên <br>
@@ -93,14 +92,14 @@ Tạo CSDL có tên **QLSV_MãSV** gồm 3 bảng: <br>
 • Giới tính <br>
 • Địa chỉ <br>
 • Phòng ban <br>
-**5. Chức năng đăng nhập và phân quyền** <br> 
+5. **Chức năng đăng nhập và phân quyền** <br> 
 
 **Sử dụng Form Authentication để xác thực người dùng.** <br>
 **Mật khẩu được băm bằng BCrypt trước khi lưu vào CSDL.** <br>
 **Phân quyền:** <br>
 • Admin: Quản lý sinh viên, phòng ban, người dùng. <br>
 • User: Chỉ xem thông tin sinh viên. <br>
-**6. Chức năng quản trị hệ thống** <br>
+6. **Chức năng quản trị hệ thống** <br>
 
 **Quản lý tài khoản người dùng:** <br>
 • Thêm mới <br>
