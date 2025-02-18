@@ -1,0 +1,256 @@
+﻿@model Exercise3.Models.EmailModel
+
+@{
+    ViewData["Title"] = "Gửi Email";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    body {
+        background: linear-gradient(45deg, #6a11cb, #2575fc);
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .email-container {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        width: 100%;
+        max-width: 500px;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+    }
+
+        .email-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+
+    h2 {
+        color: white;
+        margin-bottom: 30px;
+        font-weight: 600;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .input-group {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .input-group-text {
+        background: none;
+        border: none;
+        font-size: 20px;
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgba(255,255,255,0.8);
+        z-index: 2;
+        transition: all 0.3s ease;
+    }
+
+    .form-control {
+        background: rgba(255,255,255,0.9);
+        border: none;
+        border-radius: 12px;
+        padding: 15px 20px 15px 50px;
+        height: 50px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+        .form-control:focus {
+            background: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .form-control::placeholder {
+            color: #999;
+        }
+
+    label {
+        position: absolute;
+        left: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #666;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        background: transparent;
+        padding: 0 5px;
+    }
+
+    .form-control:focus + label,
+    .form-control:not(:placeholder-shown) + label {
+        top: -10px;
+        left: 40px;
+        font-size: 12px;
+        color: #6a11cb;
+        background: white;
+        padding: 0 5px;
+    }
+
+    .btn-primary {
+        background: linear-gradient(45deg, #6a11cb, #2575fc);
+        border: none;
+        border-radius: 12px;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s ease;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+    .social-section {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .social-icon {
+        font-size: 24px;
+        color: rgba(255,255,255,0.8);
+        transition: all 0.3s ease;
+        margin: 0 10px;
+    }
+
+        .social-icon:hover {
+            color: white;
+            transform: translateY(-3px);
+        }
+
+    .error-message {
+        color: #ff6b6b;
+        font-size: 12px;
+        margin-top: 5px;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    @@media (max-width: 576px) {
+        .email-container {
+            margin: 20px;
+            padding: 25px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+</style>
+
+<div class="email-container">
+    <h2><i class="fas fa-paper-plane me-2"></i>Gửi Thư Điện Tử</h2>
+
+    <form id="emailForm" asp-action="SendEmail" asp-controller="Email" method="post">
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+            <input type="email" class="form-control" id="fromEmail" asp-for="FromEmail" placeholder=" " required>
+            <label for="fromEmail">Email của bạn</label>
+        </div>
+        <div class="error-message" id="fromEmailError"></div>
+
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+            <input type="password" class="form-control" id="password" asp-for="Password" placeholder=" " required>
+            <label for="password">Mật khẩu</label>
+        </div>
+        <div class="error-message" id="passwordError"></div>
+
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+            <input type="email" class="form-control" id="toEmail" asp-for="ToEmail" placeholder=" " required>
+            <label for="toEmail">Người nhận</label>
+        </div>
+        <div class="error-message" id="toEmailError"></div>
+
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-tag"></i></span>
+            <input type="text" class="form-control" id="subject" asp-for="Subject" placeholder=" " required>
+            <label for="subject">Tiêu đề</label>
+        </div>
+        <div class="error-message" id="subjectError"></div>
+
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-comment"></i></span>
+            <textarea class="form-control" id="body" asp-for="Body" rows="4" placeholder=" " required></textarea>
+            <label for="body">Nội dung</label>
+        </div>
+        <div class="error-message" id="bodyError"></div>    
+
+        <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane me-2"></i>Gửi Ngay
+        </button>
+    </form>
+
+    <div class="social-section">
+        <p class="text-white text-center mb-3">Liên hệ với chúng tôi</p>
+        <div class="text-center">
+            <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-microsoft"></i></a>
+            <a href="#" class="social-icon"><i class="fas fa-phone"></i></a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const form = document.getElementById('emailForm');
+        const inputs = document.querySelectorAll('.form-control');
+
+        inputs.forEach(input => {
+            input.addEventListener('input', function() {
+                const label = this.nextElementSibling;
+                if (this.value.trim()) {
+                    label.classList.add('active');
+                } else {
+                    label.classList.remove('active');
+                }
+            });
+        });
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            let isValid = true;
+            document.querySelectorAll('.form-control').forEach(input => {
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.parentElement.classList.add('error');
+                }
+            });
+
+            if (isValid) {
+                this.submit();
+            }
+        });
+    });
+</script>

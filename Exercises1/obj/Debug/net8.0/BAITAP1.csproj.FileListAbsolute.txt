@@ -460,3 +460,4 @@ D:\Programming\aspdotnet_core\Exercises1\obj\Debug\net8.0\refint\BAITAP1.dll
 D:\Programming\aspdotnet_core\Exercises1\obj\Debug\net8.0\BAITAP1.pdb
 D:\Programming\aspdotnet_core\Exercises1\obj\Debug\net8.0\BAITAP1.genruntimeconfig.cache
 D:\Programming\aspdotnet_core\Exercises1\obj\Debug\net8.0\ref\BAITAP1.dll
+D:\Programming\aspdotnet_core\Exercises1\obj\Debug\net8.0\BAITAP1.sourcelink.json
